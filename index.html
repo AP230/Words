@@ -1,0 +1,77 @@
+ <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Mad Libs Adventure</title>
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <header>
+            <img src="img/images.jpg" alt="">
+            <img src="img/images (1).jpg" alt="">
+            <img src="img/images 2.jpg" alt="">
+            <img src="img/download (22.jpg" alt="">
+            <img src="img/download (1).jpg" alt="">
+            <img src="img/images 3.jpg" alt="">
+            <img src="img/images 4.jpg" alt="Flowers in Chania">
+            <img src="img/images 5.jpg" alt="Flowers in Chania">
+            <img src="img/images 8.jpg" alt="Flowers in Chania">
+            <div class="header-container">
+
+                <h1>Mad Libs Adventure!</h1>
+                <p><b>Where your words create wild stories!</b></p>
+            </div>
+        </header>
+    
+        <main>
+            <section class="intro">
+                <h2>Choose Your Adventure!</h2>
+                <p>Select a story template and fill in the blanks!</p>
+                <select id="story-selector">
+                    <option value="pirate">Pirate Adventure</option>
+                    <option value="zombie">Zombie Apocalypse</option>
+                    <option value="fairytale">Fairytale Gone Wrong</option>
+                </select>
+            </section>
+    
+            <section class="input-form">
+                <h2>Fill in the blanks!</h2>
+                <form id="madlib-form">
+                    <div class="input-container">
+                        <label for="noun">Noun (e.g., dog):</label>
+                        <input type="text" id="noun" placeholder="e.g., dog">
+                    </div>
+                    <div class="input-container">
+                        <label for="verb">Verb (e.g., jump):</label>
+                        <input type="text" id="verb" placeholder="e.g., jump">
+                    </div>
+                    <div class="input-container">
+                        <label for="adjective">Adjective (e.g., funny):</label>
+                        <input type="text" id="adjective" placeholder="e.g., funny">
+                    </div>
+                    <div class="input-container">
+                        <label for="place">Place (e.g., beach):</label>
+                        <input type="text" id="place" placeholder="e.g., beach">
+                    </div>
+                    <button type="submit">Generate Story!</button>
+                </form>
+            </section>
+    
+            <section class="story-output">
+                <h2>Your Mad Libs Story</h2>
+                <div class="story-box">
+                    <p id="story-text">Once you fill in the blanks, your story will appear here!</p>
+                </div>
+            </section>
+        </main>
+    
+        <footer>
+            <div class="footer-container">
+                <p>© 2025 Mad Libs Adventure | Let the wild stories begin!</p>
+            </div>
+        </footer>
+    
+        <script src="scripts.js"></script>
+  </body>
+</html>
