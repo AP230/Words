@@ -38,3 +38,4 @@ document.getElementById("madlib-form").addEventListener("submit", function(event
         storyBox.classList.add('fade-in');
     }, 500);
 });
+
